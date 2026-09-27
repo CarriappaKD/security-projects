@@ -65,12 +65,13 @@ The task was to review the provided scope, goals, and risk assessment report, th
 
 Based on the audit findings, I would prioritize the following for Botium Toys' IT manager, ranked by risk severity:
 
-1. **Implement encryption for cardholder data** — this is a PCI DSS baseline requirement and currently completely absent; highest priority given they process payments directly.
-2. **Enforce least privilege and separation of duties** — currently all employees can access cardholder data and customer PII/SPII, which is a major exposure if any single account is compromised.
-3. **Adopt a strong password policy with a centralized password management system** — current policy is below modern minimum standards, and the lack of centralized management is already creating operational friction (frequent reset tickets).
-4. **Establish disaster recovery plans and regular backups** — there is currently no way to recover from data loss, ransomware, or system failure.
-5. **Deploy an Intrusion Detection System (IDS)** — the firewall alone cannot detect threats that get past the perimeter.
-6. **Formalize legacy system monitoring** — set a defined schedule and clear intervention procedures instead of ad hoc maintenance.
+1. **Classify assets** — before controls can be properly scoped, Botium Toys needs to classify its assets (e.g., what data is sensitive/high-risk vs. low-risk). Without this, it's difficult to know exactly where controls like least privilege and encryption need to be applied first.
+2. **Implement encryption for cardholder data** — this is a PCI DSS baseline requirement and currently completely absent; highest priority given they process payments directly.
+3. **Enforce least privilege and separation of duties** — currently all employees can access cardholder data and customer PII/SPII, which is a major exposure if any single account is compromised.
+4. **Adopt a strong password policy with a centralized password management system** — current policy is below modern minimum standards, and the lack of centralized management is already creating operational friction (frequent reset tickets).
+5. **Establish disaster recovery plans and regular backups** — there is currently no way to recover from data loss, ransomware, or system failure.
+6. **Deploy an Intrusion Detection System (IDS)** — the firewall alone cannot detect threats that get past the perimeter.
+7. **Formalize legacy system monitoring** — set a defined schedule and clear intervention procedures instead of ad hoc maintenance.
 
 
 ---
