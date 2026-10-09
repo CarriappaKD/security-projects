@@ -61,18 +61,23 @@ The task was to review the provided scope, goals, and risk assessment report, th
 
 ## Recommendations
 
-*The course marked this section optional — I've drafted it based on my findings below.*
+*The course marked this section optional. Below is my own recommendation, refined after comparing my initial draft against the exemplar solution — see note at the end.*
 
 Based on the audit findings, I would prioritize the following for Botium Toys' IT manager, ranked by risk severity:
 
 1. **Classify assets** — before controls can be properly scoped, Botium Toys needs to classify its assets (e.g., what data is sensitive/high-risk vs. low-risk). Without this, it's difficult to know exactly where controls like least privilege and encryption need to be applied first.
-2. **Implement encryption for cardholder data** — this is a PCI DSS baseline requirement and currently completely absent; highest priority given they process payments directly.
+2. **Implement encryption for cardholder data** — a PCI DSS baseline requirement and currently completely absent; high priority given they process payments directly.
 3. **Enforce least privilege and separation of duties** — currently all employees can access cardholder data and customer PII/SPII, which is a major exposure if any single account is compromised.
 4. **Adopt a strong password policy with a centralized password management system** — current policy is below modern minimum standards, and the lack of centralized management is already creating operational friction (frequent reset tickets).
 5. **Establish disaster recovery plans and regular backups** — there is currently no way to recover from data loss, ransomware, or system failure.
 6. **Deploy an Intrusion Detection System (IDS)** — the firewall alone cannot detect threats that get past the perimeter.
 7. **Formalize legacy system monitoring** — set a defined schedule and clear intervention procedures instead of ad hoc maintenance.
 
+Addressing items 1–4 first would resolve the most severe PCI DSS and access-control gaps and meaningfully lower the company's overall risk score.
+
+> **Note:** My initial draft of this section didn't include asset classification as a distinct step. After reviewing the course's exemplar solution, I added it here — asset classification is a logical prerequisite that determines where other controls (like least privilege and encryption) should be applied first.
 
 ---
+📄 [View original document](Portfolio%20Activity%201.pdf)
+
 *Part of [security-projects](../).*
