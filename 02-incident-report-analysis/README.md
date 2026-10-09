@@ -42,4 +42,6 @@ My first draft of this exercise combined the Protect and Detect sections into on
 I also initially wrote the Respond section around the *immediate* containment actions taken during the attack, when the activity was actually asking for a **forward-looking response plan** for *future* incidents — a different (and more useful) deliverable for an incident playbook.
 
 ---
+📄 [View original document](Portfolio%20Activity%202.pdf)
+
 *Part of [security-projects](../).*
