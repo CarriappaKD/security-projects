@@ -11,6 +11,7 @@ Each folder contains a specific activity: what it asked for, what I produced, an
 | 01 | [Security Audit](01-security-audit/) | Course 2 — Play It Safe: Manage Security Risks | ✅ Complete |
 | 02 | [Incident Report Analysis (NIST CSF)](02-incident-report-analysis/) | Course 3 — Connect and Protect: Networks and Network Security | ✅ Complete |
 | 03 | [File Permissions in Linux](03-file-permissions-in-linux/) | Course 4 — Tools of the Trade: Linux and SQL | ✅ Complete |
+| 04 | [Apply Filters to SQL Queries](04-apply-filters-to-sql-queries/) | Course 4 — Tools of the Trade: Linux and SQL | ✅ Complete |
 
 More projects will be added as I progress through the certificate (incident reports, Python automation scripts, network diagrams, etc.).
 
