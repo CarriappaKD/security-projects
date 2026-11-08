@@ -103,6 +103,6 @@ Going into this course, I had a surface-level sense of what detection and respon
 SIEM tools. Watching how a SIEM pulls log data in from multiple sources, normalizes it, and centralizes it on a single dashboard — with the ability to visualize it as charts — stood out as directly relevant to the day-to-day work of a SOC analyst, which is why I spent extra time with it.
 
 ---
-📄 [View original document](Incident_Handlers_Journal.pdf)
+📄 [View original document](Portfolio%20Activity%206.pdf)
 
 *Part of [security-projects](../).*
