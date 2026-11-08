@@ -13,6 +13,7 @@ Each folder contains a specific activity: what it asked for, what I produced, an
 | 03 | [File Permissions in Linux](03-file-permissions-in-linux/) | Course 4 — Tools of the Trade: Linux and SQL | ✅ Complete |
 | 04 | [Apply Filters to SQL Queries](04-apply-filters-to-sql-queries/) | Course 4 — Tools of the Trade: Linux and SQL | ✅ Complete |
 | 05 | [Vulnerability Assessment Report](05-vulnerability-assessment-report/) | Course 5 — Assets, Threats, and Vulnerabilities | ✅ Complete |
+| 06 | [Incident Handler's Journal](06-incident-handlers-journal/) | Course 6 — Sound the Alarm: Detection and Response | ✅ Complete |
 
 More projects will be added as I progress through the certificate (incident reports, Python automation scripts, network diagrams, etc.).
 
